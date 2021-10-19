@@ -2,8 +2,8 @@ class Hello:
     def __init__(self):
         self.a = ''
         self._b = ''
-        self.__c = ''
-
+        self.__c = 'This is private info'
+        
 
 
 if __name__ == "__main__":
@@ -11,7 +11,7 @@ if __name__ == "__main__":
 
     hi.a = 'This is info'
     hi._b = 'This is protected info'
-    hi.__c = 'This is private info'
+    
 
     
     print(hi.a)

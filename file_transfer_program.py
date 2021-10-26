@@ -1,3 +1,14 @@
+#
+# Python:   3.8.1
+#
+# Author:   Lyttia Burton
+#
+# Purpose:  An application created with Python3 and Tkinter that allows users to
+#           transfer files that have been modified within the last day from a source folder
+#           to a destination folder on their own computer using a GUI.
+
+
+
 import shutil
 import os
 from os import path
